@@ -1,0 +1,422 @@
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+.logo-circle {
+    width: 14px;
+    height: 14px;
+    background-color: #dc3545;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.tracking-tight {
+    letter-spacing: -0.5px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    font-weight: 500;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffc107;
+}
+
+.hero-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+     url(/images/banner.png.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+}
+
+.style-p {
+    max-width: 700px;
+}
+
+.fact-card {
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease;
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.fact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.fact-icon {
+    font-size: 2rem;
+}
+
+.hero-profile-card {
+    transition: transform 0.2s ease;
+}
+
+.hero-profile-card:hover {
+    transform: translateY(-3px);
+}
+
+.hero-image-placeholder {
+    min-height: 180px;
+}
+
+.gallery-thumb {
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.gallery-thumb:hover {
+    opacity: 0.85;
+}
+
+.timeline-container {
+    border-left: 2px solid #dee2e6;
+}
+
+.timeline-item {
+    padding-bottom: 1rem;
+}
+
+.timeline-badge {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    left: -24px;
+    top: 5px;
+    border: 2px solid #ffffff;
+}
+
+.icon-shape {
+    width: 56px;
+    height: 56px;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.portrait-container {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.hero-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background-color: #f8f9fa;
+    padding: 12px;
+}
+
+.tracking-wider {
+    letter-spacing: 0.8px;
+}
+
+.gallery-card {
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.25s ease;
+    border-radius: 12px;
+}
+
+.gallery-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.ratio span {
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
+
+.footer-section {
+    border-top: 5px solid #198754;
+}
+
+.text-light-50 {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.footer-links li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+    display: inline-block;
+}
+
+.footer-links a:hover {
+    color: #ffc107 !important;
+    transform: translateX(4px);
+}
+
+.footer-email {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.footer-email:hover {
+    color: #ffc107 !important;
+}
+
+.social-btn {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.social-btn:hover {
+    background-color: #198754 !important;
+    border-color: #198754 !important;
+}
+
+.footer-legal-links a:hover {
+    color: #ffffff !important;
+}
+
+.fw-extrabold {
+    font-weight: 800;
+}
+
+.tracking-widest {
+    letter-spacing: 2px;
+}
+
+.heading-line {
+    width: 60px;
+    height: 3px;
+    background-color: #198754;
+    border-radius: 2px;
+}
+
+.professional-fact-card {
+    border-radius: 16px;
+    background: #ffffff;
+    transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease;
+}
+
+.professional-fact-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.professional-fact-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 1rem 2.5rem rgba(0, 0, 0, 0.06) !important;
+}
+
+.col-lg-3:nth-child(1) .professional-fact-card:hover::before { background-color: #198754; }
+.col-lg-3:nth-child(2) .professional-fact-card:hover::before { background-color: #dc3545; }
+.col-lg-3:nth-child(3) .professional-fact-card:hover::before { background-color: #ffc107; }
+.col-lg-3:nth-child(4) .professional-fact-card:hover::before { background-color: #0d6efd; }
+
+.icon-box {
+    width: 48px;
+    height: 48px;
+    font-size: 1.35rem;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
+.font-numeric {
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    letter-spacing: -1px;
+}
+
+.hero-banner-history {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+     url(/images/history.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+.hero-banner-history .style-p {
+    max-width: 700px;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+@media (max-width: 768px) {
+    .hero-banner-history {
+        min-height: 350px;
+    }
+}
+
+.object-cover {
+    object-fit: cover !important;
+}
+
+.pro-hero-card {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #1e293b;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease;
+}
+
+.pro-portrait-wrapper {
+    position: relative;
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+}
+
+.pro-hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.pro-card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    background: linear-gradient(to top, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.6) 50%, rgba(15, 23, 42, 0) 100%);
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+    z-index: 2;
+}
+
+.pro-hero-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16) !important;
+}
+
+.pro-hero-card:hover .pro-hero-img {
+    transform: scale(1.06);
+}
+
+.hero-banner-heroes {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+     url('/images/Mukti\ Bahini\ 1971\ freedom\ fighters\ historical\ photo.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 450px;
+}
+
+.hero-banner-contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+     url(/images/yellow-3d-map-of-bangladesh-on-a-dark-background-vector-54288950.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+
+.contact-form-card {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.04) !important;
+}
+
+.custom-input {
+    border: 2px solid #f1f5f9 !important;
+    background-color: #f8fafc !important;
+    border-radius: 10px !important;
+    font-size: 0.95rem !important;
+}
+.gallery-banner {
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.85) 0%, rgba(15, 23, 42, 0.7) 100%), 
+                url('/images/Crowd\ Celebrating\ Victory\ \(16\ December\ 1971\).webp') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed; /* Parallax effect for premium depth */
+    min-height: 65vh;             /* Increased height for dominant visual presence */
+    padding: 100px 0;             /* Generous padding prevents vertical cramping */
+}
+
+.gallery-title-underliner {
+    height: 4px;
+    width: 60px;
+    background-color: #dc3545;     /* Matches your MUKTI71 red accent brand color */
+    margin: 20px auto 0 auto;
+    border-radius: 2px;
+}
+
+.tracking-wide {
+    letter-spacing: 3px;
+}
+
+.style-p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+/* Filter Navigation Customization */
+#galleryFilter .nav-link {
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+#galleryFilter .nav-link.active {
+    background-color: #198754 !important; /* Matches Bootstrap success green */
+    color: #ffffff !important;
+}
+
+/* Premium Card Styles */
+.archive-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    background: #ffffff;
+}
+.archive-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Card Zoom Interactivity */
+.img-hover-container {
+    height: 240px; /* Forces equal grid image container sizes */
+    background-color: #f8f9fa;
+}
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Prevents raw asset image stretching */
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.archive-card:hover .gallery-img {
+    transform: scale(1.08);
+}
+.gallery-img {
+    filter: grayscale(15%) contrast(105%);
+}
